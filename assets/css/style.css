@@ -94,6 +94,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default .navbar-nav > li > a {
 	color: #1abc9c;
+  text-shadow: 1px 1px #2f2f2f;
+  /*color: red;*/
 }
 
 /* ==========================================================================
@@ -170,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 10px;
 }
 
-#workwrap {
+.workwrap {
 	background: url(../img/work.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
@@ -191,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-#workwrap h1 {
+.workwrap h1 {
 	color:#ffffff;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -200,13 +202,34 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
-#workwrap h4 {
+.workwrap h4 {
 	font-weight: 400;
 	color: #ffffff
 }
 
+#shareagram {
+  background: url(../img/work.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #aboutwrap {
-	background: url(../img/aa_hirabayashi.jpg) no-repeat center top;
+	background: url(../img/hirabayashi_climbing.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
