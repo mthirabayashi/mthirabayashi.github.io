@@ -234,9 +234,9 @@ th {
   select {
     background: #fff !important;
   }
-  .navbar {
+  /*.navbar {
     display: none;
-  }
+  }*/
   .table td,
   .table th {
     background-color: #fff !important;
@@ -2362,9 +2362,9 @@ input[type="button"].btn-block {
 .fade.in {
   opacity: 1;
 }
-.collapse {
+/*.collapse {
   display: none;
-}
+}*/
 .collapse.in {
   display: block;
 }
@@ -3461,6 +3461,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
+  float: right;
+  margin-right: 15px;
   padding: 10px 15px;
 }
 .nav > li > a:hover,
@@ -3792,7 +3794,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
 }
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -3813,7 +3815,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
   }
-}
+}*/
 @media (min-width: 768px) {
   .navbar-nav {
     float: left;
@@ -3994,7 +3996,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #555;
   background-color: #e7e7e7;
 }
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }
@@ -4015,7 +4017,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     color: #ccc;
     background-color: transparent;
   }
-}
+}*/
 .navbar-default .navbar-link {
   color: #777;
 }
@@ -4077,7 +4079,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #fff;
   background-color: #080808;
 }
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
   }
@@ -4104,7 +4106,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     color: #444;
     background-color: transparent;
   }
-}
+}*/
 .navbar-inverse .navbar-link {
   color: #999;
 }
@@ -5629,10 +5631,10 @@ button.close {
 .form-horizontal .form-group:after,
 .btn-toolbar:after,
 .btn-group-vertical > .btn-group:after,
-.nav:after,
-.navbar:after,
-.navbar-header:after,
-.navbar-collapse:after,
+/*.nav:after,*/
+/*.navbar:after,*/
+/*.navbar-header:after,*/
+/*.navbar-collapse:after,*/
 .pager:after,
 .panel-body:after,
 .modal-footer:after {

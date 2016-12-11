@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
 #aboutwrap {
 	/*background: url(../img/hirabayashi_climbing_original.jpg) no-repeat center top;*/
   background: url("http://res.cloudinary.com/duep1w4tv/image/upload/v1481162182/hirabayashi_climbing_zxlxwf.jpg") no-repeat center top;
-	margin-top: -70px;
+	/*margin-top: -70px;*/
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
@@ -249,8 +249,9 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-
-
+.navbar-toggle {
+  display: none;
+}
 
 /* Gallery */
 .gallery {
@@ -259,4 +260,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery img:hover {
 	opacity: 0.4;
+}
+
+.link {
+  text-align: center;
 }
