@@ -266,3 +266,11 @@ h1, h2, h3, h4, h5, h6 {
 .link {
   text-align: center;
 }
+
+.effects {
+  transition: all 1.5s;
+}
+
+.fade-test {
+  /*color: green !important;*/
+}
