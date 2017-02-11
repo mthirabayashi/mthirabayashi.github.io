@@ -16,12 +16,12 @@ function toggleFade(e) {
   // });
   // name.classList.add('jello');
   $(name).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', removeTransition);
-  $(name).addClass('jello');
+  $(name).addClass('flipInX');
 }
 
 function removeTransition(e) {
   console.log(e.target);
-  $(e.target).removeClass('jello');
+  $(e.target).removeClass('flipInX');
   // if (e.propertyName !== 'transform') return;
   // this.classsList.remove('jello');
 }
