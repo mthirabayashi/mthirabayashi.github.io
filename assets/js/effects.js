@@ -6,7 +6,7 @@ function addClickEvents () {
 }
 
 function toggleFade(e) {
-  console.log(e.target);
+  // console.log(e.target);
   const name = e.target;
 
   // name.classList.toggle('animated');
@@ -20,7 +20,7 @@ function toggleFade(e) {
 }
 
 function removeTransition(e) {
-  console.log(e.target);
+  // console.log(e.target);
   $(e.target).removeClass('flipInX');
   // if (e.propertyName !== 'transform') return;
   // this.classsList.remove('jello');
