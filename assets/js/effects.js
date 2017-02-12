@@ -5,8 +5,8 @@ function addClickEvents () {
   name.addEventListener('click', toggleFlip);
   const webDev = document.getElementById('header-wd');
   webDev.addEventListener('click', toggleBounce);
-  console.log(name);
-  console.log(webDev);
+  // console.log(name);
+  // console.log(webDev);
 }
 
 function toggleFlip(e) {
