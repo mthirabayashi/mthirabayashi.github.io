@@ -2,10 +2,14 @@ document.addEventListener('DOMContentLoaded', addClickEvents);
 
 function addClickEvents () {
   const name = document.querySelector('.effects');
-  name.addEventListener('click', toggleFade);
+  name.addEventListener('click', toggleFlip);
+  const webDev = document.getElementById('header-wd');
+  webDev.addEventListener('click', toggleBounce);
+  console.log(name);
+  console.log(webDev);
 }
 
-function toggleFade(e) {
+function toggleFlip(e) {
   // console.log(e.target);
   const name = e.target;
 
@@ -19,9 +23,16 @@ function toggleFade(e) {
   $(name).addClass('flipInX');
 }
 
+function toggleBounce(e) {
+  const name = e.target;
+  $(name).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', removeTransition);
+  $(name).addClass('bounce');
+}
+
 function removeTransition(e) {
-  // console.log(e.target);
-  $(e.target).removeClass('flipInX');
+  // console.log(e.originalEvent.animationName);
+  const aname = e.originalEvent.animationName;
+  $(e.target).removeClass(aname);
   // if (e.propertyName !== 'transform') return;
   // this.classsList.remove('jello');
 }
